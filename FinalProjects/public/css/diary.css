@@ -1,0 +1,45 @@
+body {
+    background-color: #08306b;
+}
+
+#chart {
+    width: 90%;
+    height: 90vh;
+}
+
+.taste-chart-title {
+    fill: #fff;
+}
+
+.taste-bar rect {
+    opacity: 0.4;
+}
+
+.taste-bar text {
+    text-anchor: middle;
+    font-size: 10px;
+}
+
+.taste-bar .taste {
+    font-size: 12px;
+}
+
+.clock-base {
+    fill: transparent;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 15px;
+    background-color: rgba(256, 256, 256, 0.5);
+}
+
+.hide-tooltip {
+    display: none;
+}
+
+.show-tooltip {
+    display: block;
+}
